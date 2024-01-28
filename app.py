@@ -8,7 +8,7 @@ from dash import no_update
 import datetime as dt
 
 app = dash.Dash(__name__)
-server = app.server
+server = app.server  # For the render.com to deploy the app
 
 app.config.suppress_callback_exceptions = True
 
